@@ -2,6 +2,10 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interaction.through.events", "Interaction.through.events\Interaction.through.events.csproj", "{A33A3936-C380-4EDA-A320-881E232A9F6D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Access.Modifiers", "Access.Modifiers\Access.Modifiers.csproj", "{D97FF5CF-468E-4ACE-B720-8A7EF0858843}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Access.Modifiers.Helper", "Access.Modifiers.Helper\Access.Modifiers.Helper.csproj", "{FDEB2B44-98E5-4C0E-9C6B-0437644C341C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +16,13 @@ Global
 		{A33A3936-C380-4EDA-A320-881E232A9F6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A33A3936-C380-4EDA-A320-881E232A9F6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A33A3936-C380-4EDA-A320-881E232A9F6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D97FF5CF-468E-4ACE-B720-8A7EF0858843}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D97FF5CF-468E-4ACE-B720-8A7EF0858843}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D97FF5CF-468E-4ACE-B720-8A7EF0858843}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D97FF5CF-468E-4ACE-B720-8A7EF0858843}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDEB2B44-98E5-4C0E-9C6B-0437644C341C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDEB2B44-98E5-4C0E-9C6B-0437644C341C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDEB2B44-98E5-4C0E-9C6B-0437644C341C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDEB2B44-98E5-4C0E-9C6B-0437644C341C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
