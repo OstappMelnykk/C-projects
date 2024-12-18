@@ -4,6 +4,8 @@ class Program
 {
     static void Main(string[] args)
     { 
+        MyClas clas = new MyClas(); //good
+        
         A a = new A();
         B b = new B();
         C c = new C();
@@ -18,6 +20,8 @@ class Program
         
     }
 }
+
+file class MyClas {}
 
 public class A
 {
