@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Access.Modifiers", "Access.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Access.Modifiers.Helper", "Access.Modifiers.Helper\Access.Modifiers.Helper.csproj", "{FDEB2B44-98E5-4C0E-9C6B-0437644C341C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Properties.Access.Modifiers", "Properties.Access.Modifiers\Properties.Access.Modifiers.csproj", "{88749FCD-D70E-433C-ADB2-2B40D09C08DD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{FDEB2B44-98E5-4C0E-9C6B-0437644C341C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FDEB2B44-98E5-4C0E-9C6B-0437644C341C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FDEB2B44-98E5-4C0E-9C6B-0437644C341C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88749FCD-D70E-433C-ADB2-2B40D09C08DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88749FCD-D70E-433C-ADB2-2B40D09C08DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88749FCD-D70E-433C-ADB2-2B40D09C08DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88749FCD-D70E-433C-ADB2-2B40D09C08DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
