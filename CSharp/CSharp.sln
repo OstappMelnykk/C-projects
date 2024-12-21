@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Properties.Access.Modifiers
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtentionMethods", "ExtentionMethods\ExtentionMethods.csproj", "{258D557A-ABF9-4916-8DF9-40530D238ADE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SystemObjectMethods", "SystemObjectMethods\SystemObjectMethods.csproj", "{E2A6D0C2-9450-407B-8D96-A57C2F444996}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{258D557A-ABF9-4916-8DF9-40530D238ADE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{258D557A-ABF9-4916-8DF9-40530D238ADE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{258D557A-ABF9-4916-8DF9-40530D238ADE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2A6D0C2-9450-407B-8D96-A57C2F444996}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2A6D0C2-9450-407B-8D96-A57C2F444996}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2A6D0C2-9450-407B-8D96-A57C2F444996}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2A6D0C2-9450-407B-8D96-A57C2F444996}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
