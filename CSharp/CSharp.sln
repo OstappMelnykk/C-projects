@@ -12,6 +12,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtentionMethods", "Extenti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SystemObjectMethods", "SystemObjectMethods\SystemObjectMethods.csproj", "{E2A6D0C2-9450-407B-8D96-A57C2F444996}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodOverlapping", "MethodOverlapping\MethodOverlapping.csproj", "{DAEF2F3D-342A-4532-BC26-790272B975C0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,5 +44,9 @@ Global
 		{E2A6D0C2-9450-407B-8D96-A57C2F444996}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E2A6D0C2-9450-407B-8D96-A57C2F444996}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E2A6D0C2-9450-407B-8D96-A57C2F444996}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAEF2F3D-342A-4532-BC26-790272B975C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAEF2F3D-342A-4532-BC26-790272B975C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAEF2F3D-342A-4532-BC26-790272B975C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAEF2F3D-342A-4532-BC26-790272B975C0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
