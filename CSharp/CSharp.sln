@@ -18,6 +18,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractClasses", "Abstract
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces", "Interfaces\Interfaces.csproj", "{68520C53-6E4C-4A5D-81F6-C6ADB8872E57}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StandardInterfaces", " StandardInterfaces\StandardInterfaces.csproj", "{EA4C2C95-6380-4F2B-B688-178866CB144B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -60,5 +62,9 @@ Global
 		{68520C53-6E4C-4A5D-81F6-C6ADB8872E57}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{68520C53-6E4C-4A5D-81F6-C6ADB8872E57}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{68520C53-6E4C-4A5D-81F6-C6ADB8872E57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA4C2C95-6380-4F2B-B688-178866CB144B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA4C2C95-6380-4F2B-B688-178866CB144B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA4C2C95-6380-4F2B-B688-178866CB144B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA4C2C95-6380-4F2B-B688-178866CB144B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
