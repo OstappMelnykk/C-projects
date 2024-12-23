@@ -16,6 +16,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodOverlapping", "Method
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractClasses", "AbstractClasses\AbstractClasses.csproj", "{E24B1000-4AFF-4DE7-865F-A95A56CFD3DD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces", "Interfaces\Interfaces.csproj", "{68520C53-6E4C-4A5D-81F6-C6ADB8872E57}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -54,5 +56,9 @@ Global
 		{E24B1000-4AFF-4DE7-865F-A95A56CFD3DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E24B1000-4AFF-4DE7-865F-A95A56CFD3DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E24B1000-4AFF-4DE7-865F-A95A56CFD3DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68520C53-6E4C-4A5D-81F6-C6ADB8872E57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68520C53-6E4C-4A5D-81F6-C6ADB8872E57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68520C53-6E4C-4A5D-81F6-C6ADB8872E57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68520C53-6E4C-4A5D-81F6-C6ADB8872E57}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
