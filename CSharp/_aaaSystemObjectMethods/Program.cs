@@ -1,4 +1,5 @@
-﻿namespace SystemObjectMethods;
+﻿
+namespace _SystemObjectMethods;
 
 class Program
 {
@@ -27,14 +28,12 @@ class Program
 
         */
         
-        User user1 = new("Josef", 25);
-        User user2 = new("Mark", 19);
-        User user3 = new("Mark", 19);
+
         
-        Console.WriteLine();
-        Console.WriteLine();
-        
-        Console.WriteLine(user1.Equals(user2));
-        Console.WriteLine(user2.Equals(user3));
+        //User user1 = new("Josef", 25);
+        //User user2 = new("Mark", 19);
+        //User user3 = new("Mark", 19);
+        //Console.WriteLine(user1.Equals(user2));
+        //Console.WriteLine(user2.Equals(user3));
     }
 }

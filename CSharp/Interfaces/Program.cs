@@ -4,9 +4,89 @@ class Program
 {
     static void Main(string[] args)
     {
+        var device = new MultiFunctionDevice();
+
+        // Cast to IPrinter to call IPrinter.Print
+        IPrinter printer = device;
+        printer.Print();
+
+        // Cast to IScanner to call IScanner.Print
+        IScanner scanner = device;
+        scanner.Print();
         
+        MultiFunctionDevice m = new MultiFunctionDevice();
+        //m.Print(); // Error
+        
+        
+        
+        Calculator calc = new Calculator();
+
+        // Call Add directly
+        Console.WriteLine($"Sum: {calc.Add(3, 4)}");
+
+        
+        // Call Multiply via the class
+        //Console.WriteLine($"Product: {calc.Multiply(3, 4)}");  //Error
+        
+        
+        // Call Multiply via the interface
+        IMathOperations mathOps = calc; // Cast to IMathOperations
+        Console.WriteLine($"Product: {mathOps.Multiply(3, 4)}");
     }
 }
+
+
+public interface IPrinter
+{
+    public void Print();
+}
+
+public interface IScanner
+{
+    public void Print(); // Same method name as in IPrinter
+}
+
+public class MultiFunctionDevice : IPrinter, IScanner
+{
+    // Explicit implementation for IPrinter
+    void IPrinter.Print()
+    {
+        Console.WriteLine("Printing document...");
+    }
+
+    // Explicit implementation for IScanner
+    void IScanner.Print()
+    {
+        Console.WriteLine("Scanning document...");
+    }
+}
+
+/// /////////////////////////////////////////////////////////////////////////////////////
+
+
+public interface IMathOperations
+{
+    int Add(int a, int b);
+    int Multiply(int a, int b);
+}
+
+public class Calculator : IMathOperations
+{
+    // Public method
+    public int Add(int a, int b)
+    {
+        Console.WriteLine($"Adding {a} + {b}");
+        return a + b;
+    }
+
+    // Explicit implementation for Multiply (hidden from class API)
+    int IMathOperations.Multiply(int a, int b)
+    {
+        Console.WriteLine($"Multiplying {a} * {b}");
+        return a * b;
+    }
+}
+
 
 
 /*

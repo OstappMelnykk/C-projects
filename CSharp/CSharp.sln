@@ -10,8 +10,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Properties.Access.Modifiers
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtentionMethods", "ExtentionMethods\ExtentionMethods.csproj", "{258D557A-ABF9-4916-8DF9-40530D238ADE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SystemObjectMethods", "SystemObjectMethods\SystemObjectMethods.csproj", "{E2A6D0C2-9450-407B-8D96-A57C2F444996}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodOverlapping", "MethodOverlapping\MethodOverlapping.csproj", "{DAEF2F3D-342A-4532-BC26-790272B975C0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractClasses", "AbstractClasses\AbstractClasses.csproj", "{E24B1000-4AFF-4DE7-865F-A95A56CFD3DD}"
@@ -19,6 +17,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces", "Interfaces\Interfaces.csproj", "{68520C53-6E4C-4A5D-81F6-C6ADB8872E57}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StandardInterfaces", " StandardInterfaces\StandardInterfaces.csproj", "{EA4C2C95-6380-4F2B-B688-178866CB144B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SystemObjectMethods", "SystemObjectMethods\SystemObjectMethods.csproj", "{7BC8B9A2-14C3-4F89-B862-B71F442BA64F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -46,10 +46,6 @@ Global
 		{258D557A-ABF9-4916-8DF9-40530D238ADE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{258D557A-ABF9-4916-8DF9-40530D238ADE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{258D557A-ABF9-4916-8DF9-40530D238ADE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E2A6D0C2-9450-407B-8D96-A57C2F444996}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E2A6D0C2-9450-407B-8D96-A57C2F444996}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E2A6D0C2-9450-407B-8D96-A57C2F444996}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E2A6D0C2-9450-407B-8D96-A57C2F444996}.Release|Any CPU.Build.0 = Release|Any CPU
 		{DAEF2F3D-342A-4532-BC26-790272B975C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{DAEF2F3D-342A-4532-BC26-790272B975C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DAEF2F3D-342A-4532-BC26-790272B975C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -66,5 +62,9 @@ Global
 		{EA4C2C95-6380-4F2B-B688-178866CB144B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA4C2C95-6380-4F2B-B688-178866CB144B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA4C2C95-6380-4F2B-B688-178866CB144B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BC8B9A2-14C3-4F89-B862-B71F442BA64F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BC8B9A2-14C3-4F89-B862-B71F442BA64F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BC8B9A2-14C3-4F89-B862-B71F442BA64F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BC8B9A2-14C3-4F89-B862-B71F442BA64F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
