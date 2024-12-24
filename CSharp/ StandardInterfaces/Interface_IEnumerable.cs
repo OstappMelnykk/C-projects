@@ -73,7 +73,7 @@ file class UsersStorage : IEnumerable
     
     public IEnumerator GetEnumerator()
     {
-        return new UsersStorageEnumerator(users);
+        return new UsersStorageEnumerator(this.users);
     }
 }
 
@@ -81,10 +81,11 @@ file class UsersStorageEnumerator : IEnumerator
 {
     private User[] users;
     private int currentIndex = -1;
+    
+    public UsersStorageEnumerator(User[] users) => this.users = users;
+    
     public object? Current { get => users[currentIndex]; }
-
-    public UsersStorageEnumerator(object? users) => this.users = users as User[];
-
+    
     public bool MoveNext()
     {
         currentIndex++;
